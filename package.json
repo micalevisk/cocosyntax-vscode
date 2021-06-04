@@ -1,7 +1,7 @@
 {
   "name": "cocor-syntax-vscode",
   "displayName": "Coco/R Syntax Highlight",
-  "description": "Coco/R https://ssw.jku.at/Research/Projects/Coco syntax highligting for Java, C# and C++ versions ports.",
+  "description": "Syntax highligting for Java, C# and C++ versions ports of Coco/R.",
   "version": "1.0.0",
   "publisher": "micalevisk",
   "engines": {
@@ -98,5 +98,14 @@
         "path": "./syntaxes/cocor-cpp.tmLanguage.json"
       }
     ]
+  },
+  "devDependencies": {
+    "vsce": "^1.92.0"
+  },
+  "scripts": {
+    "vsce": "vsce",
+    "ext:package": "vsce package",
+    "preext:publish": "vsce package",
+    "ext:publish": "vsce publish"
   }
 }

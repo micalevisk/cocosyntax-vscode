@@ -9,11 +9,16 @@ The Compile Generator [Coco/R](https://ssw.jku.at/Research/Projects/Coco) syntax
 
 The language files were taken from [mschoebel' Coco/R syntax highlighter plugin](https://github.com/mschoebel/cocosyntax) for Sublime Text.
 
-## Usage
+## Development
 
-1. Download the ZIP of this project
-2. Extract the downloaded folder into the `~/.vscode/extensions` directory
-3. Reload the VSC window
+1. Clone the repository - `git clone https://github.com/micalevisk/cocosyntax-vscode`
+2. `npm install`
+3. Open it in VSCode
+4. Go to the debugging section and run the laungh program "Launch Extension"
+5. This will open another VSCode window with the extension enabled
+6. Create a new file with a file name suffix matching your language (eg: `.java.atg`)
+7. Verify that syntax highlight works and that the language configuration settings are working
+8. Make changes to `syntaxes/*` file and reload the VSC window to load the changes
 
 ---
 
