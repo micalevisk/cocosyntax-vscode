@@ -9,6 +9,15 @@ The Compile Generator [Coco/R](https://ssw.jku.at/Research/Projects/Coco) syntax
 
 The language files were taken from [mschoebel' Coco/R syntax highlighter plugin](https://github.com/mschoebel/cocosyntax) for Sublime Text.
 
+## Preview
+
+![language selector](./docs/language-selector.png)
+
+![domain parts](./docs/domain-parts.png)
+
+![semantic context highlights properly](./docs/semantic-context-highlights-properly.png)
+
+
 ## Development
 
 1. Clone the repository - `git clone https://github.com/micalevisk/cocosyntax-vscode`
