@@ -97,8 +97,8 @@
   "folding": {
     "offside": true,
     "markers": {
-      "start": "^\\s*\\/\\/\\s*#region\\b",
-      "end": "^\\s*\\/\\/\\s*#endregion\\b"
+      "start": "^\\s*//\\s*(#region\\b)|(#domain\\b)",
+      "end": "^\\s*//\\s*(#endregion\\b)|(#enddomain\\b)"
     }
   }
 }
