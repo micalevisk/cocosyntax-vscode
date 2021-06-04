@@ -1,0 +1,25 @@
+# Coco/R Syntax Highlighting - VS Code
+
+The Compile Generator [Coco/R](https://ssw.jku.at/Research/Projects/Coco) syntax highlighting package for Visual Studio Code editor for Java, C# and C++ ports.
+
+- Your file should end with `.java.atg` if you want to use the Java syntax highlighting
+- Your file should end with `.cs.atg` if you want to use the C# syntax highlighting
+- Your file should end with `.cpp.atg` if you want to use the C++ syntax highlighting
+- Wrap the domain port code there was written in your ATG file between the `//#domain` and `//#enddomain` lines
+
+The language files were taken from [mschoebel' Coco/R syntax highlighter plugin](https://github.com/mschoebel/cocosyntax) for Sublime Text.
+
+## Usage
+
+1. Download the ZIP of this project
+2. Extract the downloaded folder into the `~/.vscode/extensions` directory
+3. Reload the VSC window
+
+---
+
+## Copyright Notes
+
+```
+Copyright (c) 2012, Michael Schoebel
+All rights reserved for the TextMate grammars.
+```

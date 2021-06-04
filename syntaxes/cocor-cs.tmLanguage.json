@@ -1,0 +1,57 @@
+{
+  "name": "Coco/R C#",
+  "scopeName": "source.cocor.cs",
+  "fileTypes": [
+    "atg"
+  ],
+  "patterns": [
+    {
+      "match": "\\b(ANY|CHARACTERS|COMMENTS|COMPILER|CONTEXT|END|FROM|IF|IGNORE|IGNORECASE|NESTED|PRAGMAS|PRODUCTIONS|SYNC|TOKENS|TO|WEAK)\\b",
+      "name": "keyword.source.cocor.cs"
+    },
+    {
+      "match": "\"(\\\\.|[^\\\\\"])*\"",
+      "name": "string.quoted.double.source.cocor.cs"
+    },
+    {
+      "match": "'(\\\\.|[^\\\\\"])*?'",
+      "name": "constant.character.source.cocor.cs"
+    },
+    {
+      "begin": "\\(\\.",
+      "end": "\\.\\)",
+      "name": "source.cocor.cs",
+      "patterns": [
+        {
+          "include": "source.cs"
+        }
+      ]
+    },
+    {
+      "begin": "<",
+      "end": ">",
+      "name": "source.cocor.cs",
+      "patterns": [
+        {
+          "match": ".*?",
+          "name": "variable.parameter.source.cocor.cs"
+        }
+      ]
+    },
+    {
+      "match": "=|\\(|\\)|\\{|\\}|\\[|\\]|\\|",
+      "name": "constant.language.source.cocor.cs"
+    },
+    {
+      "begin": "//",
+      "end": "$\\n",
+      "name": "comment.line.double-dash.source.cocor.cs"
+    },
+    {
+      "begin": "/\\*",
+      "end": "\\*/",
+      "name": "comment.block.source.cocor.cs"
+    }
+  ],
+  "uuid": "ba4870e7-050b-4e39-b8b0-2cb6295469ba"
+}

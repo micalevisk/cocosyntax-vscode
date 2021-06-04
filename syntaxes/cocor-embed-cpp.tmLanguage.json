@@ -1,0 +1,49 @@
+{
+  "scopeName": "embed-cpp.cocor",
+  "fileTypes": [
+    "atg"
+  ],
+  "injectionSelector": "L:source -string -comment",
+  "patterns": [
+    {
+      "name": "meta.embedded.block.cpp",
+      "begin": "^\\s*\\/\\/\\s*#domain\\b.*",
+      "end": "^\\s*\\/\\/\\s*#enddomain\\b.*",
+      "beginCaptures": {
+        "0": {
+          "name": "punctuation.definition.comment.cpp"
+        }
+      },
+      "endCaptures": {
+        "0": {
+          "name": "punctuation.definition.comment.cpp"
+        }
+      },
+      "patterns": [
+        {
+          "include": "source.cpp"
+        }
+      ]
+    },
+    {
+      "name": "meta.embedded.inline.cpp",
+      "begin": "\\(\\.",
+      "end": "\\.\\)",
+      "beginCaptures": {
+        "0": {
+          "name": "punctuation.definition.comment.cpp"
+        }
+      },
+      "endCaptures": {
+        "0": {
+          "name": "punctuation.definition.comment.cpp"
+        }
+      },
+      "patterns": [
+        {
+          "include": "source.cpp"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,102 @@
+{
+  "name": "cocor-syntax-vscode",
+  "displayName": "Coco/R Syntax Highlight",
+  "description": "Coco/R https://ssw.jku.at/Research/Projects/Coco syntax highligting for Java, C# and C++ versions ports.",
+  "version": "1.0.0",
+  "publisher": "micalevisk",
+  "engines": {
+    "vscode": "^1.0.0"
+  },
+  "categories": [
+    "Programming Languages"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/micalevisk/cocosyntax-vscode"
+  },
+  "homepage": "https://github.com/micalevisk/cocosyntax-vscode/blob/master/README.md",
+  "contributes": {
+    "languages": [
+      {
+        "id": "cocor-java-syntax",
+        "aliases": [
+          "Coco/R Java",
+          "cocor-java-syntax"
+        ],
+        "extensions": [
+          ".java.atg"
+        ],
+        "configuration": "./cocor-syntax.configuration.json"
+      },
+      {
+        "id": "cocor-cs-syntax",
+        "aliases": [
+          "Coco/R C#",
+          "cocor-cs-syntax"
+        ],
+        "extensions": [
+          ".cs.atg"
+        ],
+        "configuration": "./cocor-syntax.configuration.json"
+      },
+      {
+        "id": "cocor-cpp-syntax",
+        "aliases": [
+          "Coco/R C++",
+          "cocor-cpp-syntax"
+        ],
+        "extensions": [
+          ".cpp.atg"
+        ],
+        "configuration": "./cocor-syntax.configuration.json"
+      }
+    ],
+    "grammars": [
+      {
+        "injectTo": [
+          "source.cocor.java"
+        ],
+        "scopeName": "embed-java.cocor",
+        "path": "./syntaxes/cocor-embed-java.tmLanguage.json",
+        "embeddedLanguages": {
+          "meta.embedded.block.java": "java"
+        }
+      },
+      {
+        "injectTo": [
+          "source.cocor.cpp"
+        ],
+        "scopeName": "embed-cpp.cocor",
+        "path": "./syntaxes/cocor-embed-cpp.tmLanguage.json",
+        "embeddedLanguages": {
+          "meta.embedded.block.cpp": "cpp"
+        }
+      },
+      {
+        "injectTo": [
+          "source.cocor.cs"
+        ],
+        "scopeName": "embed-cpp.cocor",
+        "path": "./syntaxes/cocor-embed-cs.tmLanguage.json",
+        "embeddedLanguages": {
+          "meta.embedded.block.cs": "cs"
+        }
+      },
+      {
+        "language": "cocor-java-syntax",
+        "scopeName": "source.cocor.java",
+        "path": "./syntaxes/cocor-java.tmLanguage.json"
+      },
+      {
+        "language": "cocor-cs-syntax",
+        "scopeName": "source.cocor.cs",
+        "path": "./syntaxes/cocor-cs.tmLanguage.json"
+      },
+      {
+        "language": "cocor-cpp-syntax",
+        "scopeName": "source.cocor.cpp",
+        "path": "./syntaxes/cocor-cpp.tmLanguage.json"
+      }
+    ]
+  }
+}

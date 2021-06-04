@@ -1,0 +1,57 @@
+{
+  "name": "Coco/R Java",
+  "scopeName": "source.cocor.java",
+  "fileTypes": [
+    "atg"
+  ],
+  "patterns": [
+    {
+      "match": "\\b(ANY|CHARACTERS|COMMENTS|COMPILER|CONTEXT|END|FROM|IF|IGNORE|IGNORECASE|NESTED|PRAGMAS|PRODUCTIONS|SYNC|TOKENS|TO|WEAK)\\b",
+      "name": "keyword.source.cocor.java"
+    },
+    {
+      "match": "\"(\\\\.|[^\\\\\"])*\"",
+      "name": "string.quoted.double.source.cocor.java"
+    },
+    {
+      "match": "'(\\\\.|[^\\\\\"])*?'",
+      "name": "constant.character.source.cocor.java"
+    },
+    {
+      "begin": "\\(\\.",
+      "end": "\\.\\)",
+      "name": "source.cocor.java",
+      "patterns": [
+        {
+          "include": "source.java"
+        }
+      ]
+    },
+    {
+      "begin": "<",
+      "end": ">",
+      "name": "source.cocor.java",
+      "patterns": [
+        {
+          "match": ".*?",
+          "name": "variable.parameter.source.cocor.java"
+        }
+      ]
+    },
+    {
+      "match": "=|\\(|\\)|\\{|\\}|\\[|\\]|\\|",
+      "name": "constant.language.source.cocor.java"
+    },
+    {
+      "begin": "//",
+      "end": "$\\n",
+      "name": "comment.line.double-dash.source.cocor.java"
+    },
+    {
+      "begin": "/\\*",
+      "end": "\\*/",
+      "name": "comment.block.source.cocor.java"
+    }
+  ],
+  "uuid": "1a85edf6-15f0-4f90-b976-456ef470526f"
+}
