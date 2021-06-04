@@ -2,7 +2,7 @@
   "name": "cocor-syntax-vscode",
   "displayName": "Coco/R Syntax Highlight",
   "description": "Syntax highligting for Java, C# and C++ versions ports of Coco/R.",
-  "version": "1.1.0",
+  "version": "1.1.1",
   "publisher": "micalevisk",
   "engines": {
     "vscode": "^1.0.0"
@@ -76,7 +76,7 @@
         "injectTo": [
           "source.cocor.cs"
         ],
-        "scopeName": "embed-cpp.cocor",
+        "scopeName": "embed-cs.cocor",
         "path": "./syntaxes/cocor-embed-cs.tmLanguage.json",
         "embeddedLanguages": {
           "meta.embedded.block.cs": "cs"
