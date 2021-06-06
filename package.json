@@ -2,7 +2,7 @@
   "name": "cocor-syntax-vscode",
   "displayName": "Coco/R Syntax Highlight",
   "description": "Syntax highligting for Java, C# and C++ versions ports of Coco/R.",
-  "version": "1.1.1",
+  "version": "1.1.2",
   "publisher": "micalevisk",
   "engines": {
     "vscode": "^1.0.0"
