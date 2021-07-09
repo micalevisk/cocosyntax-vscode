@@ -30,13 +30,7 @@
     {
       "begin": "<",
       "end": ">",
-      "name": "source.cocor.java",
-      "patterns": [
-        {
-          "match": ".*?",
-          "name": "variable.parameter.source.cocor.java"
-        }
-      ]
+      "name": "variable.parameter.source.cocor.java"
     },
     {
       "match": "=|\\(|\\)|\\{|\\}|\\[|\\]|\\|",
@@ -53,5 +47,5 @@
       "name": "comment.block.source.cocor.java"
     }
   ],
-  "uuid": "1a85edf6-15f0-4f90-b976-456ef470526f"
+  "uuid": "53f686da-d8c7-4385-8206-d6fc51aeeee8"
 }

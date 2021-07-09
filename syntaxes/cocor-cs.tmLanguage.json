@@ -30,13 +30,7 @@
     {
       "begin": "<",
       "end": ">",
-      "name": "source.cocor.cs",
-      "patterns": [
-        {
-          "match": ".*?",
-          "name": "variable.parameter.source.cocor.cs"
-        }
-      ]
+      "name": "variable.parameter.source.cocor.cs"
     },
     {
       "match": "=|\\(|\\)|\\{|\\}|\\[|\\]|\\|",
@@ -53,5 +47,5 @@
       "name": "comment.block.source.cocor.cs"
     }
   ],
-  "uuid": "ba4870e7-050b-4e39-b8b0-2cb6295469ba"
+  "uuid": "83d993a4-5745-4315-99e6-e5b3c00faf66"
 }

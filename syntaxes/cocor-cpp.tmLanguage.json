@@ -30,13 +30,7 @@
     {
       "begin": "<",
       "end": ">",
-      "name": "source.cocor.cpp",
-      "patterns": [
-        {
-          "match": ".*?",
-          "name": "variable.parameter.source.cocor.cpp"
-        }
-      ]
+      "name": "variable.parameter.source.cocor.cpp"
     },
     {
       "match": "=|\\(|\\)|\\{|\\}|\\[|\\]|\\|",
@@ -53,5 +47,5 @@
       "name": "comment.block.source.cocor.cpp"
     }
   ],
-  "uuid": "d98cca1d-28b9-448d-8098-591f807a93c8"
+  "uuid": "897fbd5a-0721-44fb-99ec-8b13baf7312b"
 }
