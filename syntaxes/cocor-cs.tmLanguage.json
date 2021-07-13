@@ -28,9 +28,24 @@
       ]
     },
     {
+      "begin": "<\\.",
+      "end": "\\.>",
+      "name": "variable.parameter.source.cocor.cs",
+      "patterns": [
+        {
+          "include": "source.cs"
+        }
+      ]
+    },
+    {
       "begin": "<",
       "end": ">",
-      "name": "variable.parameter.source.cocor.cs"
+      "name": "variable.parameter.source.cocor.cs",
+      "patterns": [
+        {
+          "include": "source.cs"
+        }
+      ]
     },
     {
       "match": "=|\\(|\\)|\\{|\\}|\\[|\\]|\\|",
@@ -47,5 +62,5 @@
       "name": "comment.block.source.cocor.cs"
     }
   ],
-  "uuid": "83d993a4-5745-4315-99e6-e5b3c00faf66"
+  "uuid": "fac95ac0-e70e-4db8-b57c-7a0e45727db1"
 }

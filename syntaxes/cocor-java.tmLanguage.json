@@ -28,9 +28,24 @@
       ]
     },
     {
+      "begin": "<\\.",
+      "end": "\\.>",
+      "name": "variable.parameter.source.cocor.java",
+      "patterns": [
+        {
+          "include": "source.java"
+        }
+      ]
+    },
+    {
       "begin": "<",
       "end": ">",
-      "name": "variable.parameter.source.cocor.java"
+      "name": "variable.parameter.source.cocor.java",
+      "patterns": [
+        {
+          "include": "source.java"
+        }
+      ]
     },
     {
       "match": "=|\\(|\\)|\\{|\\}|\\[|\\]|\\|",
@@ -47,5 +62,5 @@
       "name": "comment.block.source.cocor.java"
     }
   ],
-  "uuid": "53f686da-d8c7-4385-8206-d6fc51aeeee8"
+  "uuid": "1d14f62f-a190-4e53-b67c-2e172f2edcdb"
 }

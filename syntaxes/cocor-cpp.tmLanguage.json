@@ -28,9 +28,24 @@
       ]
     },
     {
+      "begin": "<\\.",
+      "end": "\\.>",
+      "name": "variable.parameter.source.cocor.cpp",
+      "patterns": [
+        {
+          "include": "source.cpp"
+        }
+      ]
+    },
+    {
       "begin": "<",
       "end": ">",
-      "name": "variable.parameter.source.cocor.cpp"
+      "name": "variable.parameter.source.cocor.cpp",
+      "patterns": [
+        {
+          "include": "source.cpp"
+        }
+      ]
     },
     {
       "match": "=|\\(|\\)|\\{|\\}|\\[|\\]|\\|",
@@ -47,5 +62,5 @@
       "name": "comment.block.source.cocor.cpp"
     }
   ],
-  "uuid": "897fbd5a-0721-44fb-99ec-8b13baf7312b"
+  "uuid": "526cbe9d-dab6-428f-acdd-e9d082516e91"
 }
